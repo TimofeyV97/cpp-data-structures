@@ -1,9 +1,7 @@
 #include <iostream>
 #include "queue.h"
 
-
 using namespace std;
-
 
 Queue::Queue(int size)
 {
@@ -12,12 +10,10 @@ Queue::Queue(int size)
 	tail = head = 0;
 }
 
-
 Queue::~Queue()
 {
 	delete [] queue;
 }
-
 
 void Queue::push(int el)
 {
@@ -27,7 +23,6 @@ void Queue::push(int el)
 	if (tail > my_size)
 		tail = 0;
 }
-
 
 int Queue::pop()
 {

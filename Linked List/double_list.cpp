@@ -1,12 +1,10 @@
 #include <cstddef>
 #include "double_list.h"
 
-
 Double_list::Double_list(int value) : List(value)
 {
 	my_previous = NULL;
 }
-
 
 void Double_list::add_value(int value)
 {

@@ -1,9 +1,7 @@
 #include <iostream>
 #include "stack.h"
 
-
 using namespace std;
-
 
 Stack::Stack(int size)
 {
@@ -12,12 +10,10 @@ Stack::Stack(int size)
 	sp = 0;
 }
 
-
 Stack::~Stack()
 {
 	delete [] stack;
 }
-
 
 void Stack::push(int el)
 {
@@ -29,7 +25,6 @@ void Stack::push(int el)
 		sp++;
 	}
 }
-
 
 int Stack::pop()
 {

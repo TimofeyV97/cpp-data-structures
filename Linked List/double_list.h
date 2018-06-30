@@ -2,7 +2,6 @@
 #define DOUBLE_LIST_H
 #include "list.h"
 
-
 class Double_list : public List
 {
 private:
