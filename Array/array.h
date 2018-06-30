@@ -2,13 +2,11 @@
 #define ARRAY_H_
 #include <cstddef>
 
-
 class Array
 {
 private:
 	size_t my_size;
 	int *my_data;
-
 
 public:
 	Array(size_t size);
